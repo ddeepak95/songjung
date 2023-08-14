@@ -203,7 +203,7 @@ const SongJung: React.FC = () => {
   };
 
   return (
-    <div className="py-28">
+    <div className="py-28 px-4">
       <ToastContainer />
 
       <div className="flex min-h-screen">
