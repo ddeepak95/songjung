@@ -203,7 +203,7 @@ const SongJung: React.FC = () => {
   };
 
   return (
-    <div className="py-28 px-4">
+    <div className="py-28">
       <ToastContainer />
 
       <div className="flex min-h-screen">
@@ -336,7 +336,7 @@ const SongJung: React.FC = () => {
         )}
       </div>
       <div>
-        <div className="flex flex-col text-center text-xs items-center justify-center p-4 bg-slate-900 rounded-3xl">
+        <div className="flex flex-col text-xs text-center items-center justify-center p-4 dark:bg-slate-900 bg-slate-300 rounded-3xl">
           <p>
             made by{" "}
             <a

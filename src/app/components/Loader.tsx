@@ -106,7 +106,7 @@ const Loader: React.FC<LoaderProps> = ({
     new Promise((resolve) => setTimeout(resolve, ms));
 
   return (
-    <div className="text-center p-8 bg-slate-800 rounded-3xl">
+    <div className="text-center p-8 bg-slate-200 dark:bg-slate-800 rounded-3xl">
       <div className="flex justify-center mb-4">
         <HypnosisLoader loading colors={["#ffffff", "#000000"]} />
       </div>

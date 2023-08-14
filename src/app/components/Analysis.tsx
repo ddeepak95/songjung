@@ -47,7 +47,7 @@ const Analysis: React.FC<AnalysisProps> = ({
           </div>
         </div>
         <div className="p-4 rounded-xl bg-slate-800 my-4">
-          <p className="text-sm text-justify">{message}</p>
+          <p className="text-sm text-white text-justify">{message}</p>
         </div>
         <div className="text-sm text-center">
           <p className="text-slate-300">Get analyzed by Dr. Song Jung🎵 at</p>
