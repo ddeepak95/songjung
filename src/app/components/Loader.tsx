@@ -24,20 +24,22 @@ const Loader: React.FC<LoaderProps> = ({
   const songMessagesFunc = (song: string) => [
     `Ah ${song}, I see.`,
     `Who still listens to ${song}?`,
+    `Do you seriously like ${song}?`,
+    `Wow, looks like we have a ${song} fan here`,
   ];
   const analyzingMessageSets = [
+    ["Going deep inside your mind", "Oh my god. So dark", "Analyzing deeply"],
     [
-      "Going deep inside your psyche",
-      "Oh no, that's dark",
-      "Coming back. Coming back",
-      "Let me analyze from here",
-      "Analyzing deeply",
+      "Analyzing the lyrics",
+      "Watch the circles carefully",
+      "Cruising through your mind",
     ],
     [
-      "Reading the song notes",
-      "Feeling the rhythm",
-      "Understanding the lyrics",
-      "Getting into the groove",
+      "Concentrate on the circles",
+      "Revisiting your childhood",
+      "Some dark memories here",
+      "Some light ones too",
+      "Analyzing your mind",
     ],
   ];
   const analysisDoneMessages = [

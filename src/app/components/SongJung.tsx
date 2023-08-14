@@ -336,7 +336,7 @@ const SongJung: React.FC = () => {
         )}
       </div>
       <div>
-        <div className="flex flex-col text-center items-center justify-center p-4 bg-slate-900 rounded-3xl">
+        <div className="flex flex-col text-center text-xs items-center justify-center p-4 bg-slate-900 rounded-3xl">
           <p>
             made by{" "}
             <a
